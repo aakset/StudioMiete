@@ -1,0 +1,74 @@
+body {
+  background-color: #208cff;
+}
+
+.title {
+    text-align: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    padding-top: 1.5em;
+  }
+  
+  .slogan {
+    text-align: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    line-height: 1.5;
+    padding-top: 1.5em;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;    
+  }
+
+  
+@keyframes LeftRight {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.landing {
+  padding-left: 7em;
+  animation: LeftRight 0.75s;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@keyframes RightLeft {
+  0% {
+    transform: translateX(+50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.microphone {
+  justify-content: flex-end;
+  animation: RightLeft 0.75s;
+}
+  
+.youtube-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+  
